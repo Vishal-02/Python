@@ -1,0 +1,9 @@
+#code for the number triangle
+n = int(input("Enter the number of rows: "))
+
+for x in range(n):
+    m = 1
+    for a in range(x+1):
+        print(m, end = " ")
+        m+=1
+    print()

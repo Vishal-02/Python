@@ -1,0 +1,17 @@
+#code for the number triangle
+n = int(input("Enter the number of rows: "))
+b = n
+
+for x in range(n):
+    m = 1
+    
+    for z in range(b-1):
+        print(end = " ")
+        
+    b-=1
+    
+    for a in range(x+1):
+        print(m, end = " ")
+        m+=1
+        
+    print()

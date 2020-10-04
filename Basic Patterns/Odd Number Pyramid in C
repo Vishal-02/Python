@@ -1,0 +1,30 @@
+//This code is in C, because I forgot how to do it in general, so I couldn't do it in python that easily, 
+//so I decided to do  it again in the language I started out with in th first place, C.
+
+#include <stdio.h>
+int main()
+{
+    int n, j, k=0;
+    
+    printf("Enter the number of rows: ");
+    scanf("%d", &n);
+    
+    for (int i=0; i<n; i++)
+    {
+        for (int s=0; s<2*(n-i); s++)
+        printf(" ");
+        
+        j=((2*i)+1);
+        
+        for (int m=j-k; m<=j; m++)
+        printf("%d ", m);
+        
+        for (int l=j-1; l>=j-k; l--)
+        printf("%d ", l);
+        
+        printf("\n");
+        
+        k++;
+    }
+    return 0;
+}
