@@ -1,0 +1,3 @@
+Emotion recognition using OpenCV and Keras.
+Used the FER2013 dataset to train the model.
+Uses webcam to take a photo. It detects your face and passes it through the model which tries and guesses what emotion you're putting on right now.
